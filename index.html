@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link icon -->
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    
+    
+    <title>yummu</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="bs/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="bg-dark">
+
+    <!-- ready page -->
+    <div class=" loading position-fixed top-0 start-0 end-0 bottom-0 bg-black justify-content-center align-items-center">
+        <i class="fa fa-spinner fa-spin fa-5x"></i>
+    </div>
+
+<!-- start slide bar -->
+<div class="slideBar">
+    <div class=" contentNav d-flex flex-column  p-4">
+        <div class="links">
+            <ul class="list-unstyled list">
+                <li><a href="#" id="searchUrl">Search</a></li>
+                <li class="mt-2"><a href="#" id="categoriesUrl">Categories</a></li>
+                <li class="mt-2"><a href="#" id="areaUrl">Area</a></li>
+                <li class="mt-2"><a href="#" id="ingredientsUrl">Ingredients</a></li>
+                <li class="mt-2"><a href="#" id="contactUrl">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="navFooter ">
+            <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter mx-2"></i>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="mt-2">
+                <p class="text-white">
+                    Copyright Â© 2019 All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white navOpen text-center d-flex flex-column justify-content-between py-4">
+        <div class="logo">
+            <img class="w-50 " src="img/logo.png" alt="">
+        </div>
+        <div class="iconToggle">
+            <i id="openNav" class="fa-solid fa-bars"></i>
+            <i id="closeNav" class="fa-solid fa-x"></i>
+        </div>
+        <div>
+            <i class="fa-solid fa-globe d-block"></i>
+            <i class="fa-solid fa-share-nodes accordion-collapse mt-3"></i>
+        </div>
+        
+    </div>
+    </div>
+<!-- end slide bar -->
+<header>
+    <div class="container-lg my-5 py-5 ">
+        <div class="row d-flex justify-content-center text-white" id="displayEate" on>
+
+        </div>
+    </div>
+
+
+
+</header>
+
+
+<script src="bs/bootstrap.bundle.min.js"></script>
+<script src="jq/jquery-3.7.0.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

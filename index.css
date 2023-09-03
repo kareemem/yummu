@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+.loading{
+    z-index: 999999999;
+    display: flex;
+
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+i{
+    cursor: pointer;
+}
+ /* start nav */
+
+#closeNav{
+    display: none;
+    cursor: pointer;
+}
+#openNav{
+    cursor: pointer;
+
+}
+
+.navFooter{
+    display: none ;
+
+}
+
+.list{
+    display: none;
+}
+
+.slideBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 99999;
+    width: 0;
+}
+
+.contentNav{
+background-color: rgb(13, 14, 14);
+height: 100%;
+justify-content: space-between;
+display: none ;
+}
+
+.navOpen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 99999;
+    width: 15vh;
+}
+.links ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.icon i{
+    color: white;
+}
+
+.iconToggle i{
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 900;
+}
+
+/* end nav */
+/* start home */
+.imgText{
+    position: absolute;
+    background-color:#f9f6f6ca;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    opacity: 0;
+    transition-duration: 1s;
+    color: black;
+}
+.contentHome{
+    overflow: hidden;
+
+}
+
+.contentHome:hover .imgText{
+    top:0;
+    opacity: 1;
+}
+
+
+
+/* ############# */
+
+.contentTag{
+    color: white;
+}
+
+.bold p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+.bold{
+    font-size: 2rem;
+    line-height: 2.375rem;
+    font-weight: 500;
+    color: white;
+
+}
+
+span{
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #055160;
+    border: 1px solid rgb(207, 244, 252);
+    background-color: rgb(207, 244, 252);
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.src{
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(21, 115, 71);
+    background-color: rgb(21, 115, 71);
+    text-align: center;
+    cursor: pointer;
+    border-radius: .9375rem;
+    padding: 10px .9375rem;
+
+}
+.youtube{
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(187, 45, 59);
+    background-color: rgb(187, 45, 59);
+    text-align: center;
+    cursor: pointer;
+    border-radius: .9375rem;
+    padding: 10px .9375rem;
+}
+
+
+
+/* search */
+
+input{
+    border-radius: 10px;
+    border: 1px solid white;
+    height: 40px;
+    color: white;
+
+}
+input:focus{
+    border: none;
+    box-shadow: 0px 0px 5px 2px rgb(74, 230, 230) !important;
+}
+
+
+
+/*  */
+.inputText{
+    position: absolute;
+    background-color:#f9f6f6ca;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    opacity: 0;
+    transition-duration: 1s;
+}
+.contentHome{
+    overflow: hidden;
+
+}
+
+.contentHome:hover .inputText{
+    top:0;
+    opacity: 1;
+}
+
+
+
+/* ingredients */
+.ingredients i{
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 900;
+}
+.ingredients h3{
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.ingredients{
+    height: 200px;
+    overflow: hidden;
+}
+
+
+/* categories */
+
+
+.categoriesText{
+    position: absolute;
+    background-color:#f9f6f6ca;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    opacity: 0;
+    transition-duration: 1s;
+}
+.contentCategories{
+    overflow: hidden;
+
+}
+
+.contentCategories:hover .categoriesText{
+    top:0;
+    opacity: 1;
+}
+
+
+
+/* area */
+
+
+
+.area i{
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 900;
+}
+.area h3{
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+/* contact */
+
+
+.contctHeader{
+    height: 100vh;
+}
